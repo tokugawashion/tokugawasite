@@ -1,19 +1,63 @@
-<script setup lang="ts">
-definePageMeta({
-  title: 'About use-bootstrap',
-  description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
-})
-</script>
+<div class="col-12 col-md-4 border p-2">
+  <h2>51位香山睡</h2>
+  <ul class="list-unstyled">
+   <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>ヒーロー名　ミッドナイト</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>個性　眠り香</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>　雄英高校　近代ヒーロー美術史担当</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>出身地　埼玉県</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>誕生日　3月9日</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>身長175cm</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>血液型　A型</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>好きなもの　青春</li>
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        <li>性格　ドS</li>
+      </label>
+    </div>
+  </ul>
+</div>
+コンテキスト メニューあり
 
-<template>
-  <Background video-src="/pexels/movie/3209211-uhd_3840_2160_25fps.mp4" :overlay="true" overlay-color="gray-100">
-    <b-h level="1" margin="5" display-headings="1" text-color="white">
-      <b-p text-color="blue">usebootstrap is</b-p>
-      <Typed class="text-primary fw-semibold" :strings="['powerful.', 'extensible.', 'feature-packed.']"
-        :type-speed="60" :loop="true" :back-speed="25" :back-delay="1500" />
-    </b-h>
-  </Background>
-  <h2>First step</h2>
-  <h2>Second step</h2>
 
-</template>
+コンテキスト メニューあり
