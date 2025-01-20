@@ -1084,4 +1084,8 @@
     </div>  
 </template>
 
-<style></style>
+<style>
+.image-size { 
+  width:50px; height:50; 
+  }
+</style>
